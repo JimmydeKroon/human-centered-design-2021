@@ -47,6 +47,19 @@ div.dropmenu {
   width: max-content;
   opacity: 1;
   z-index: 100;
+  animation: addMenu .30s ease;
+}
+
+@keyframes addMenu {
+  from {
+    left: 12em;
+    transform: scale(0.2);
+  }
+
+  to {
+    left: 0em;
+    transform: scale(1);
+  }
 }
 
 div.dropmenu p {
@@ -84,6 +97,7 @@ ol {
 
 li {
   font-size: 1.1em;
+  line-height: 1.5;
   background-color: var(--tertiary);
   padding: 1.5em 1em;
   margin-bottom: .8em;

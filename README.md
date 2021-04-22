@@ -6,6 +6,8 @@ Marijn is waarschijnlijk de beste developer die je ooit gaat ontmoeten. Een bril
 ## Opdracht: Ontwerp een Drag & Drop lijst
 Hoe kun je een drag & drop lijst optimaliseren voor een gebruiker die afhankelijk is van zijn toetsenbord én motorisch gestoord is?
 
+link to Prototype [here!](https://jimmydekroon.github.io/human-centered-design-2021/)
+
 # Week 1
 
 ## Tests
