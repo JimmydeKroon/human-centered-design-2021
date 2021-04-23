@@ -10,10 +10,10 @@ link to Prototype [here!](https://jimmydekroon.github.io/human-centered-design-2
 
 # Week 1
 
-## Tests
+## Test
 Dit is de eerste keer dat we Marijn gaan ontmoeten en dus weten we nog niet zo veel over hem en hoe hij precies zijn computer gebruikt. We hebben dus een aantal aannames gedaan en als groep een klein drag & drop prototype gemaakt. Deze is uiteindelijk uitgebreid in meerdere variaties, op deze manier kunnen we beter zien hoe Marijn met verschillende oplossingen overweg kan. Zie de live versie van deze prototypes hier [link!](https://sjorswijsman.github.io/human-centered-design-2021/week-1/index.html)
 
-## Aantekeningen
+## Aantekeningen & feedback
 
 - Gebruikt Vi editor en kent alle shortcuts erg goed.
     - https://www.guru99.com/the-vi-editor.html
@@ -26,7 +26,51 @@ Dit is de eerste keer dat we Marijn gaan ontmoeten en dus weten we nog niet zo v
 - Zoekt actief naar manieren om je app te slopen, zorgen dat je daar rekening mee houdt 😂
 - Teveel tab gebruiken of andere toetsen achter elkaar indrukken is vervelend (hij heeft wel wat beters te doen). Proberen een interface te maken waar Marijn zo min mogelijk acties hoeft te doen.
 
-## volgende week
+## Volgende week
 Ik weet nog niet goed welke kant ik op wil met mijn prototype, de tests van deze week waren al vrij experimenteel en er zijn veel verschillende vormen van drag & drop getest. Ik wil in ieder geval meer richting de trackpad qua functionaliteit aangezien Marijn hier minder moeite mee heeft dan veel toetsen gebruiken. Misschien een mix van trackpad met wat simpele toetscommands?
 
 # Week 2
+
+## Test
+Marijn was deze week helaas niet beschikbaar voor een test dus is Vasilis voor hem ingevallen. Deze week heb ik een nieuwe richting voor mijn drag & drop idee gekozen. Ik wil er graag voor zorgen dat Marijn zo min mogelijk afstand hoeft af te leggen (of zo min mogelijk handelingen hoeft te doen) om een taak van a naar b te verplaatsen op een trello achtig bord.
+
+Om dit te doen ben ik begonnen aan een prototype dat het bord compacter maakt zodra Marijn een taak wil verplaatsen. Ik heb het prototype helaas niet compleet afgekregen voor deze week maar het was duidelijk genoeg om het concept door Vasilis te kunnen laten testen.
+
+![drag & drop main state](img/drag&drop1.png "drag & drop main state")
+drag & drop main state
+<br>
+<br>
+
+![drag & drop compact state](img/drag&drop2.png "drag & drop compact state")
+drag & drop compact state
+<br>
+<br>
+
+## Feedback
+De afstanden op het bord verkleinen kan zeker meerwaarde opleveren in de gebruikerservaring voor Marijn, maar er zijn meerdere manieren om het bord compacter of beter bereikbaar te maken. Even kijken naar andere manieren voor het compact maken van het bord.
+
+En zorgen dat de hoofd functionaliteit in ieder geval werkt voor de volgende test (al is het gefaked). Dan kan er veel betere feedback gegeven worden.
+
+## Volgende week
+Het prototype verder uitwerken en afmaken zodat er volgende week echt goed getest kan worden. Ik ben geinspireerd door een idee van Vasilis en Giliam die een voorstel deden van een klein submenu, codepen voorbeeldje [hier!](https://codepen.io/perymimon/pen/ezslJ)
+
+Het lijkt mij waardevol om een menu als deze te maken zodra er op een taak wordt geklikt, van hieruit kan Marijn dan kiezen in het submenu naar welk bord de taak moet. In principe lijkt dit idee erg op het idee van vorige week maar dit kan de afstand die Marijn moet afleggen nog kleiner maken.
+
+# Week 3
+
+## Test
+De powerweek, deze week heb de app in grote lijnen af kunnen maken dus de test was erg waardevol. Marijn had deze gelukkig weer tijd! Link naar het prototype [hier!](https://jimmydekroon.github.io/human-centered-design-2021/)
+
+## feedback
+De test was erg goed, Marijn vondt het vooral fijn dat hij minder hoeft te doen met zijn trackpad. De knoppen waren niet te klein en de kleuren die ik had gebruikt om hem te sturen waren duidelijk.
+
+- Het cancellen van een selectie kan momenteel alleen door op dezelfde of op een van de andere kaarten te klikken. Als Marijn buiten de boards klikt, op de zwarte achtergrond bijvoorbeeld, gebeurt er niets en lijkt het alsof hij vastzit in deze "move" modus.
+
+- Marijn is wel benieuwd hoe dit zou werken met een groter trelloboard. Marijn heeft zelf een trelloboard met ~20 borden, dit past natuurlijk niet meer in dat kleine submenu. Hoe zou ik dit oplossen?
+
+- Kan dit uitgebreid worden met keyboard shortcuts (bijvoorbeeld die van VI, want die kent Marijn al). Er kan bijvoorbeeld een move modus en een insert modus komen. zodat merijn op verschillende manieren met board kan interacteren.
+
+## volgende week
+Volgende week is de oplevering, dat betekent dat deze helaas de laatste week was om te testen met Marijn. Gelukkig heb ik waardevolle feddback gehad deze week.
+
+Er is weinig tijd tussen nu en de beoordeling dus ik denk dat er niet heel
