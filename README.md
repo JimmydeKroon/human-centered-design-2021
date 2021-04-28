@@ -6,12 +6,14 @@ Marijn is waarschijnlijk de beste developer die je ooit gaat ontmoeten. Een bril
 ## Opdracht: Ontwerp een Drag & Drop lijst
 Hoe kun je een drag & drop lijst optimaliseren voor een gebruiker die afhankelijk is van zijn toetsenbord én motorisch gestoord is?
 
-link to Prototype [here!](https://jimmydekroon.github.io/human-centered-design-2021/)
+live prototype [link!](https://jimmydekroon.github.io/human-centered-design-2021/)
+
+![Drag & drop main](img/board-main.png "drag & drop main")
 
 # Week 1
 
 ## Test
-Dit is de eerste keer dat we Marijn gaan ontmoeten en dus weten we nog niet zo veel over hem en hoe hij precies zijn computer gebruikt. We hebben dus een aantal aannames gedaan en als groep een klein drag & drop prototype gemaakt. Deze is uiteindelijk uitgebreid in meerdere variaties, op deze manier kunnen we beter zien hoe Marijn met verschillende oplossingen overweg kan. Zie de live versie van deze prototypes hier [link!](https://sjorswijsman.github.io/human-centered-design-2021/week-1/index.html)
+Dit is de eerste keer dat we Marijn gaan ontmoeten en dus weten we nog niet zo veel over hem en hoe hij precies zijn computer gebruikt. We hebben dus een aantal aannames gedaan en als groep een klein drag & drop prototype gemaakt. Deze is uiteindelijk uitgebreid in meerdere variaties, op deze manier kunnen we beter zien hoe Marijn met verschillende oplossingen overweg kan. Zie de live versie van deze prototypes hier. [link!](https://sjorswijsman.github.io/human-centered-design-2021/week-1/index.html)
 
 ## Aantekeningen & feedback
 
@@ -32,7 +34,7 @@ Ik weet nog niet goed welke kant ik op wil met mijn prototype, de tests van deze
 # Week 2
 
 ## Test
-Marijn was deze week helaas niet beschikbaar voor een test dus is Vasilis voor hem ingevallen. Deze week heb ik een nieuwe richting voor mijn drag & drop idee gekozen. Ik wil er graag voor zorgen dat Marijn zo min mogelijk afstand hoeft af te leggen (of zo min mogelijk handelingen hoeft te doen) om een taak van a naar b te verplaatsen op een trello achtig bord.
+Marijn was deze week helaas niet beschikbaar voor een test dus is Vasilis voor hem ingevallen. Deze week heb ik een nieuwe richting voor mijn drag & drop idee gekozen. De kans dat Marijn een foutje maakt is groter als hij meer handelingen moet doen of langere handelingen moet doen. Ik wil er daarom graag voor zorgen dat Marijn zo min mogelijk afstand hoeft af te leggen (of zo min mogelijk handelingen hoeft te doen) om een taak van a naar b te verplaatsen op een trello achtig bord.
 
 Om dit te doen ben ik begonnen aan een prototype dat het bord compacter maakt zodra Marijn een taak wil verplaatsen. Ik heb het prototype helaas niet compleet afgekregen voor deze week maar het was duidelijk genoeg om het concept door Vasilis te kunnen laten testen.
 
@@ -59,7 +61,7 @@ Het lijkt mij waardevol om een menu als deze te maken zodra er op een taak wordt
 # Week 3
 
 ## Test
-De powerweek, deze week heb de app in grote lijnen af kunnen maken dus de test was erg waardevol. Marijn had deze gelukkig weer tijd! Link naar het prototype [hier!](https://jimmydekroon.github.io/human-centered-design-2021/)
+De powerweek, deze week heb ik de app in grote lijnen af kunnen maken dus de test was erg waardevol. Marijn had deze week gelukkig weer tijd! Link naar het prototype [hier!](https://jimmydekroon.github.io/human-centered-design-2021/)
 
 ## feedback
 De test was erg goed, Marijn vondt het vooral fijn dat hij minder hoeft te doen met zijn trackpad. De knoppen waren niet te klein en de kleuren die ik had gebruikt om hem te sturen waren duidelijk.
@@ -71,6 +73,22 @@ De test was erg goed, Marijn vondt het vooral fijn dat hij minder hoeft te doen 
 - Kan dit uitgebreid worden met keyboard shortcuts (bijvoorbeeld die van VI, want die kent Marijn al). Er kan bijvoorbeeld een move modus en een insert modus komen. zodat merijn op verschillende manieren met board kan interacteren.
 
 ## volgende week
-Volgende week is de oplevering, dat betekent dat deze helaas de laatste week was om te testen met Marijn. Gelukkig heb ik waardevolle feddback gehad deze week.
+Volgende week is de oplevering, dat betekent dat deze week helaas de laatste week was om te testen met Marijn. Gelukkig heb ik waardevolle feddback gehad deze week.
 
-Er is weinig tijd tussen nu en de beoordeling dus ik denk dat er niet heel
+Er is weinig tijd tussen nu en de beoordeling dus ik denk dat deze functionaliteiten te groot zijn om in 1 week te bouwen. Ik wil daarom in ieder geval een ontwerp maken voor het submenu als er veel meer boards zijn (zoals Marijn heeft).
+
+# Week 4
+
+![week4-design](img/week4-design.png "week4-design")
+
+Dit ontwerp heb ik gemaakt als oplossing voor een trello board met veel kolommen. In het submenu van vorige week kan ik niet veel verschillende kolommen kwijt, met dit ontwerp kan dat wel.
+
+Door een ronde selector te gebruiken kan Marijn een kolom uitkiezen waar deze taak heen moet. Deze cirkel kan 8 kolommen laten zien, maar met dit menu kan ook gescrolled worden. Als je naar de beneden of naarboven scrolled (of j/k gebruikt) worden de volgende 8 kolommen weergegeven. Zo kunnen er makkelijk een grote hoeveelheid items in het menu staan.
+
+Inspiratie voor dit idee kwam van een aantal videogames die acties/emotes met een "wiel" menu weergeven.
+
+<br>
+<br>
+
+Hier een voorbeeld van de game Apex Legends:
+![apex-wheel](img/apex-legends-wheel.jpg "apex-legends-wheel")
